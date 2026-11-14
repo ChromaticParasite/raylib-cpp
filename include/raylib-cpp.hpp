@@ -57,6 +57,7 @@
 #include "./Mouse.hpp"
 #include "./Music.hpp"
 #include "./MusicUnmanaged.hpp"
+#include "./Quaternion.hpp"
 #include "./Ray.hpp"
 #include "./RayCollision.hpp"
 #include "./RaylibException.hpp"
