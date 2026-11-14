@@ -12,7 +12,6 @@
 #include "./raymath.hpp"
 
 namespace raylib {
-class Vector4 : public ::Vector4 {};
 
 /**
  * Quaternion type
