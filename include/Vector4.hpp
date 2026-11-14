@@ -9,7 +9,6 @@
 #include "./raymath.hpp"
 
 namespace raylib {
-class Quaternion : public ::Quaternion {};
 
 /**
  * Vector4 type
@@ -17,7 +16,6 @@ class Quaternion : public ::Quaternion {};
 class Vector4 : public ::Vector4 {
  public:
     constexpr Vector4(const ::Vector4& vec) : ::Vector4{vec.x, vec.y, vec.z, vec.w} {}
-    explicit constexpr Vector4(const raylib::Quaternion quat) : ::Vector4{quat.x, quat.y, quat.z, quat.w} {}
 
     explicit constexpr Vector4(const float x = 0, const float y = 0, const float z = 0, const float w = 0)
         : ::Vector4{x, y, z, w} {}
